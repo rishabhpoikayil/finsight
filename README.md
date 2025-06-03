@@ -29,7 +29,7 @@ FinSight is a Streamlit app powered by OpenAI's GPT-4o and yFinance that lets us
 
 ## Setup Instructions
 
-1. **Clone the repo**
+1. **Clone the repo.**
    ```bash
    git clone https://github.com/rishabhpoikayil/finsight.git
    cd finsight
@@ -39,15 +39,15 @@ FinSight is a Streamlit app powered by OpenAI's GPT-4o and yFinance that lets us
    python -m venv venv
    source venv/bin/activate # On Windows: venv\Scripts\activate
 
-3. **Install dependencies**
+3. **Install dependencies.**
    ```bash
    pip install -r requirements.txt
 
-4. **Set your OpenAI API key**
+4. **Set your OpenAI API key.** <br>
    Create a file named API_KEY in the project root and paste your OpenAI key inside:
     ```bash
-   echo "sk-..." > API_KEY
+    echo "sk-..." > API_KEY
 
-6. **Run the app**
+5. **Run the app.**
    ```bash
    streamlit run app.py
